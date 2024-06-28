@@ -2,7 +2,7 @@ import Groq from "groq-sdk";
 import * as vscode from "vscode";
 
 const groq = new Groq({
-  apiKey: "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",
+  apiKey: "",
 });
 
 async function fetchExplanation(code) {
